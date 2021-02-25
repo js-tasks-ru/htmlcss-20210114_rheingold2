@@ -1,4 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
     <!-- Ваше решение -->
+    <head>
+        <meta charset="utf-8">
+        <style>
+            html{
+                color: white;
+                text-align: center;
+                line-height: 3rem;
+                font-size: 20px;
+            }
+            html > *{
+                margin: 0px;
+                padding: 0px;
+            }
+            header{
+                background-color: red;
+            }
+            header h1{
+                margin: 0px;
+            }
+            nav{
+                background-color: coral;
+            }
+            nav a{
+                color: white;;
+            }
+            nav span+span{
+                padding-left: 15px;
+            }
+            main{
+                background-color: green;
+                padding: 20px;
+            }
+            main > :first-child{
+                margin-bottom: 10px;
+            }
+            article{
+                background-color: blue;
+                text-align: left;
+                line-height: 1.2rem;
+                padding: 25px 15px;
+            }
+            footer{
+                background-color: blueviolet;
+                font-size: 2.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+            <nav>
+                <a href="#">Navigation1</a>
+                <a href="#">Navigation2</a>
+                <a href="#">Navigation3</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>Article1</h2>
+                <ul>
+                    <li>Оригинальная трилогия</li>
+                    <li>Трилогия приквелов</li>
+                    <li>Трилогия сиквелов</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Article1</h2>
+                <ol>
+                    <li>Эпизод IV — Новая надежда</li>
+                    <li>Эпизод V — Империя наносит ответный удар</li>
+                    <li>Эпизод VI — Возвращение джедая</li>
+                </ol>
+            </article>
+        </main>
+        <footer>
+            Footer
+        </footer>
+        
+    </body>
 </html>
